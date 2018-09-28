@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Sanity",
+  "version": "0.1",
+  "description": "Migrates outlook calendar to Canvas calendar",
+
+  "content_scripts": [
+      {
+          "matches": ["<all_urls>"],
+          "js": ["sanity.js"]
+      }
+  ]
+}
